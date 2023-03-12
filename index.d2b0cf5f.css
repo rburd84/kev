@@ -12514,18 +12514,15 @@ main section {
     padding-block-start: 2.5rem
 }
 
-.intro button {
-    width: 200px;
-    height: 65px
-}
-
-.intro button:hover {
-    transform: scale(1.05)
-}
-
 .intro a {
+    width: 200px;
+    height: 65px;
     color: #fff;
     text-decoration: none
+}
+
+.intro a:hover {
+    transform: scale(1.05)
 }
 
 section {
@@ -12773,7 +12770,7 @@ footer .social-container .icon-links img {
     }
 }
 
-.intro button {
+.intro a {
     animation-name: heartbeat;
     animation-duration: 1s;
     animation-iteration-count: infinite
