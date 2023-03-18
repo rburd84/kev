@@ -12111,12 +12111,15 @@ section .about-text {
   margin-block-end: 10%;
 }
 
-#services .row:first-child {
-  align-self: center;
+#services .image {
+  text-align: center;
+  margin: auto;
 }
 
-#services .image {
-  margin: auto;
+@media screen and (max-width: 575px) {
+  #services .image img {
+    width: 75%;
+  }
 }
 
 .services-list {
