@@ -12,7 +12,7 @@
     <main class="main container-fluid px-0 overflow-hidden">
       <nav class="navbar navbar-dark navbar-expand-lg bg-dark fixed-top">
         <div class="container">
-          <a class="navbar-brand" href="./index.html">
+          <a class="navbar-brand" href="/index.html">
             <img src="./customer1st_logo.3ad86c3a.png" alt="cust1_logo">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,7 +20,7 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav" toggle="collapse" data-target=".navbar-collapse">
             <div class="navbar-nav d-flex align-items-center fs-5">
-                <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
                 <a class="nav-link" href="#services">Services</a>
                 <a class="nav-link" href="#about">About</a>
                 <a class="nav-link" href="#reviews">Reviews</a>
@@ -33,7 +33,7 @@
 
       <header id="header">
         <section class="container">
-          <img src="./customer1st_logo.3ad86c3a.png" class="img-fluid" id="logo" alt="cust1_logo">
+          <img src="/customer1st_logo.3ad86c3a.png" class="img-fluid" id="logo" alt="cust1_logo">
         </section>
         <section class="container mx-auto">
           <div class="heading-title d-flex flex-column">
@@ -54,7 +54,7 @@
       <section id="services">
         <div class="container">
           <h2 class="section-title display-4">Our Services</h2>
-          <div class="row g-md-5">
+          <div class="row gy-3">
             <div class="col-md-6 align-self-md-center">
               <p class="section-sub-title fw-semibold">Interior Drain Cleaning</p>
               <div class="services-list vstack gap-2 text-center mx-auto">
@@ -68,13 +68,22 @@
             </div>
 
             <div class="col-md-6">
-              <div class="image">
-                <img src="https://static.wixstatic.com/media/b22382_f69186a21aa04876a338042490bd569f~mv2.jpg/v1/fill/w_575,h_675,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/20210607_091558.jpg" alt="toilet" class="img-fluid">
+              <div class="row h-100 gy-3">
+                <div class="col-md-6 col-sm">
+                  <div class="image">
+                    <img src="https://static.wixstatic.com/media/b22382_2d6658f0562549bbb100b5d10da39108~mv2.jpg/v1/fill/w_575,h_675,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/drain%20cleaning%20picture.jpg" alt="auger" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col align-self-md-end">
+                  <div class="image">
+                    <img src="https://static.wixstatic.com/media/b22382_f69186a21aa04876a338042490bd569f~mv2.jpg/v1/fill/w_575,h_675,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/20210607_091558.jpg" alt="toilet" class="img-fluid">
+                  </div>
+                </div>
               </div>
             </div>
           </div>
 
-          <div class="row g-md-5">
+          <div class="row gy-3">
             <div class="col-md-6 order-md-2 align-self-md-center">
               <p class="section-sub-title fw-semibold">Repairs & Installations</p>
               <div class="services-list vstack gap-2 text-center mx-auto">
@@ -88,8 +97,17 @@
               </div>
             </div>
             <div class="col-md-6 order-md-1">
-              <div class="image">
-                <img src="https://static.wixstatic.com/media/11062b_e3f7315d50624aba8a2334eff7c87f9a~mv2.jpg/v1/crop/x_1714,y_0,w_2907,h_3413/fill/w_575,h_675,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Happy%20Plumbers.jpg" alt="plumbers" class="img-fluid">
+              <div class="row h-100 gy-3">
+                <div class="col align-self-md-end">
+                  <div class="image">
+                    <img src="https://static.wixstatic.com/media/11062b_e3f7315d50624aba8a2334eff7c87f9a~mv2.jpg/v1/crop/x_1714,y_0,w_2907,h_3413/fill/w_575,h_675,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Happy%20Plumbers.jpg" alt="plumbers" class="img-fluid">
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm">
+                  <div class="image">
+                    <img src="https://static.wixstatic.com/media/b22382_ce89d23020214b2a88b8b0497a291f8c~mv2.jpg/v1/fill/w_548,h_643,al_c,q_80,enc_auto/repair%20parts%20picture.jpg" alt="tools" class="img-fluid">
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -148,7 +166,7 @@
                 <div>
                   <label for="location" class="form-label">Location</label>
                   <select name="location" id="location" class="form-select" aria-label="Location select" aria-describedby="location" required="">
-                    <option selected="" label="blank"></option>
+                    <option selected=""></option>
                     <option value="Ballantyne">Ballantyne</option>
                     <option value="Charlotte">Charlotte</option>
                     <option value="Fort Mill">Fort Mill</option>
@@ -300,7 +318,7 @@
     <footer class="bg-dark text-white overflow-hidden">
       <div class="row footer-img">
         <div class="col">
-          <img src="./customer1st_logo.3ad86c3a.png" class="img-fluid" alt="footer-logo">
+          <img src="/customer1st_logo.3ad86c3a.png" class="img-fluid" alt="footer-logo">
         </div>
       </div>
       <div class="contact-info px-md-5">
@@ -310,7 +328,7 @@
               <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"></path>
             </svg>
             <h5 class="contact-title">Phone</h5>
-            <a href="tel:9805806070" class="tel-number">(980)580-6070</a>
+            <a href="tel:9805806878" class="tel-number">(980)580-6070</a>
           </div>
         </div>
         <div class="col-md-6 address-container">
@@ -345,16 +363,16 @@
         <div class="col social-container">
           <ul class="icon-links">
             <li class="icon-link">
-              <a href="https://www.facebook.com/" target="_blank"><img src="./Facebook2.08e56fd9.png" alt="facbook"></a>
+              <a href="https://www.facebook.com/" target="_blank"><img src="/Facebook2.08e56fd9.png" alt="facbook"></a>
             </li>
             <li class="icon-link">
               <a href="https://nextdoor.com/pages/customers-1st-drain-cleaning-plumbing-repairs-llc-charlotte-nc/" target="_blank"><img src="https://d19rpgkrjeba2z.cloudfront.net/6a320e2505b6a0a3/static/nextdoorv2/images/favicons/favicon-refresh-32.png" alt="nextdoor"></a>
             </li>
             <li class="icon-link">
-              <a href="https://www.yelp.com/biz/customers-1st-drain-cleaning-and-plumbing-repairs-charlotte" target="_blank"><img src="./Yelp.70dfb3aa.png" alt="yelp"></a>
+              <a href="https://www.yelp.com/biz/customers-1st-drain-cleaning-and-plumbing-repairs-charlotte" target="_blank"><img src="/Yelp.70dfb3aa.png" alt="yelp"></a>
             </li>
             <li class="icon-link">
-              <a href="https://www.twitter.com/" target="_blank"><img src="./Twitter.347f903d.png" alt="twitter"></a>
+              <a href="https://www.twitter.com/" target="_blank"><img src="/Twitter.347f903d.png" alt="twitter"></a>
             </li>
           </ul>
         </div>
